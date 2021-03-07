@@ -17,7 +17,7 @@ services:
   redisdb:
     restart: always
     container_name: "dzone_mancala_redis"
-    image: redis
+    image: redis:6.2.1
     ports:
       - "6379:6379"
 

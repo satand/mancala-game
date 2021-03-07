@@ -79,7 +79,6 @@ services:
 
   grafana:
     image: grafana/grafana:6.2.5
-    container_name: grafana
     ports:
       - 3000:3000
     depends_on:
